@@ -8,7 +8,7 @@ import TrelloBoard from './components/TrelloBoard.vue';
       class="mr-3"
       src="./public/icon-green.png"
       />
-      Trello Board using Nuxt and TailwindCSS
+      Trello Board with Vue.js
     </h1>
     <TrelloBoard />
   </div>

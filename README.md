@@ -1,75 +1,57 @@
-# Nuxt 3 Minimal Starter
+# Vue Trello Board
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project is a simple Trello board implemented with drag-and-drop functionality using Vue.js. It utilizes various Vue libraries and tools to enhance the user experience and developer workflow.
 
-## Setup
+## Features
 
-Make sure to install the dependencies:
+- Drag-and-drop interface for organizing tasks
+- Responsive design with Tailwind CSS
+- Drag handles for improved usability
+- Smooth drag transitions
+- Reactive LocalStorage integration with VueUse for data persistence
+- Keyboard modifiers for shortcuts using VueUse
+- Developed as a single-page application (SPA) with Nuxt.js for developer perks and streamlined front-end workflow
 
-```bash
-# npm
+## Libraries and Tools Used
+
+- [Vue.js](https://vuejs.org/) - JavaScript framework for building user interfaces
+- [Vue Draggable](https://github.com/SortableJS/vue.draggable.next) - Vue component for drag-and-drop functionality
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework for styling
+- [VueUse](https://vueuse.org/) - Collection of essential Vue composition APIs
+- [Nuxt.js](https://nuxtjs.org/) - Vue.js framework for building server-side rendered (SSR) applications
+- [SortableJS](https://sortablejs.github.io/Sortable/) - JavaScript library for sorting elements via drag-and-drop
+
+## Installation
+
+1. Clone the repository:
+
+```
+git clone https://github.com/RISTOTR/trello-board
+```
+
+2. Navigate to the project directory:
+
+```
+cd vue-trello-board
+```
+
+3. Install dependencies:
+
+```
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Usage
 
-Start the development server on `http://localhost:3000`:
+1. Run the development server:
 
-```bash
-# npm
+```
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+2. Open your browser and navigate to `http://localhost:3000` to view the Trello board.
 
-Build the application for production:
 
-```bash
-# npm
-npm run build
+## Acknowledgments
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Special thanks to the creators and maintainers of the libraries and tools used in this project, as well as the Vue.js and Nuxt.js communities for their support and resources.
