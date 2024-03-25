@@ -20,7 +20,7 @@ onKeyStroke("Backspace", (e)=> {
 <template>
   <div
   :title="task.createdAt.toLocaleDateString()"
-  class="task bg-white p-2 mb-2 rounded shadow-sm max-w-[250px] flex"
+  class="task text-white bg-gray-800 p-2 mb-2 rounded shadow-sm max-w-[250px] flex"
   @focus="focused = true"
   @blur="focused = false"
   tabindex="0"
@@ -36,6 +36,8 @@ onKeyStroke("Backspace", (e)=> {
 } */
 .sortable-drag .task{
   transform: rotate(5deg);
+  background: #00DC82;
+  border: none;
 }.sortable-ghost .task{
   position: relative;
 }
@@ -45,7 +47,8 @@ onKeyStroke("Backspace", (e)=> {
 }
 .task:focus,
 .task:focus-visible{
-  @apply outline-gray-400 !important;
-  outline: gray auto 1px;
+  background: #00DC82;
+  /* @apply outline-gray-400 !important;
+  outline: gray auto 1px; */
 }
 </style>
