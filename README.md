@@ -32,7 +32,7 @@ git clone https://github.com/RISTOTR/trello-board
 2. Navigate to the project directory:
 
 ```
-cd vue-trello-board
+cd trello-board
 ```
 
 3. Install dependencies:
