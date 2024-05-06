@@ -21,6 +21,9 @@ This project is a simple Trello board implemented with drag-and-drop functionali
 - [Nuxt.js](https://nuxtjs.org/) - Vue.js framework for building server-side rendered (SSR) applications
 - [SortableJS](https://sortablejs.github.io/Sortable/) - JavaScript library for sorting elements via drag-and-drop
 
+## Preview 
+https://nuxt-trello.netlify.app/
+
 ## Installation
 
 1. Clone the repository:
